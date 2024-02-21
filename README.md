@@ -11,10 +11,6 @@ Vperrot Garage est une application de site vitrine pour un garage, avec un espac
 3. Téléchargez PHPmyadmin et créez une nouvelle base de données.
 4. Dans le dossier `config`, modifiez les informations de connexion avec le nom de votre base de données.
 
-## Utilisation
-
-Aucune information spécifique fournie.
-
 ## Configuration
 
 Si vous souhaitez vous connecter à l'espace admin :
@@ -30,6 +26,4 @@ Ce projet est sous licence MIT.
 
 En construction.
 
-## Contact
 
-Aucune information de contact fournie.
