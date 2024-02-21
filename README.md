@@ -16,7 +16,7 @@ Vperrot Garage est une application de site vitrine pour un garage, avec un espac
 Si vous souhaitez vous connecter à l'espace admin :
 
 - Email: "vperrot@gmail.com"
-- Mot de passe: "vperrot 976"
+- Mot de passe: "vperrot976"
 
 ## Licence
 
