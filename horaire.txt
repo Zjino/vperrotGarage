@@ -1,0 +1,5 @@
+{
+  "monday": "fermé",
+  "tueToFri": "Fermé",
+  "saturday": "Fermé"
+}

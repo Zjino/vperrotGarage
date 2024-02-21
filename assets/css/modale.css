@@ -1,0 +1,71 @@
+/* Ajuster la largeur des champs de formulaire */
+.modal-body .form-control {
+    width: 95%; /* Utilise toute la largeur disponible */
+}
+
+/* Ajuster la hauteur des champs de formulaire */
+.modal-body .form-control {
+    height: 50px;
+    width: 90%;
+    /* Définis une hauteur spécifique, ajustable selon tes besoins */
+}
+
+/* Style pour le modal */
+.modal-content {
+    background-color: #000; /* Fond noir */
+    color: #fff; /* Texte blanc */
+}
+
+/* Style pour le titre du modal */
+.modal-title {
+    color: #fff; /* Texte blanc */
+}
+
+/* Style pour le corps du modal */
+.modal-body {
+    background-color: #fff; /* Fond blanc */
+    color: #000; /* Texte noir */
+}
+
+/* Style pour le formulaire d'inscription */
+.form-control {
+    background-color: #fff; /* Fond blanc pour les champs de formulaire */
+    color: #000; /* Texte noir pour les champs de formulaire */
+}
+
+/* Style pour le bouton Soumettre */
+.btn-primary {
+    background-color: #000; /* Fond noir pour le bouton Soumettre */
+    color: #fff; /* Texte blanc pour le bouton Soumettre */
+    border-color: #fff; /* Bordure blanche pour le bouton Soumettre */
+}
+
+/* Style pour le lien "Voir les détails" */
+.details {
+    color: #fff; /* Texte blanc */
+}
+
+/* Style pour le message d'erreur */
+#error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+
+/* Ajuster la largeur du modal pour les grands écrans */
+.modal-dialog {
+    max-width: 50%; /* Augmente la largeur du modal */
+}
+
+/* Augmenter la taille du texte à l'intérieur du modal */
+.modal-body p,
+.modal-body .form-control {
+    font-size: 16px; /* Augmente la taille du texte */
+    /* Ajoute d'autres styles personnalisés si nécessaire */
+}
+
+
+/* Media queries pour les appareils mobiles */
+@media (max-width: 768px) {
+    /* Ajoute tes styles spécifiques pour les appareils mobiles ici */
+}

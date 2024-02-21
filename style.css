@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300;400;500;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Teko', sans-serif;
+} 
+
+/* CSS pour l'en-tête */
+.header-section {
+    background-color: #000640;
+}
+
+
+.hero-desktop-section{
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+     url("./assets/images/bg-garage.jpg");
+}
+.hero-mobile-section {
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+     url("./assets/images/bg-garage-mobile.jpg");
+}
+
+/* CSS pour la section Filtres Multi-Ranges */
+
+
+/* CSS pour la section Produits */
+.products-section {
+    background-color: #f9f6f2;
+}
+
+.products-section *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.products-section h3,h5{
+    color: rgb(0, 91, 228);
+}
+  
+
+.products-section .card-img-top{
+    border-radius: 50px;
+    padding: 20px;
+}
+.products-section .card{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.products-section .card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.products-section .btn-primary{
+    border-radius: 50px;
+    width: 120px;
+}
+.products-section .btn-primary:hover{
+    background-color: black;
+    border: none;
+}
+ 
+/* CSS pour la section Pourquoi nous choisir  */
+.choose-section {
+    background-color: #0e0e0f;
+   
+}
+
+/*CSS pour le contact --> */
+
+.contacts-section {
+    background-color: #303030; 
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap; /* Permettre le retour à la ligne si nécessaire */
+}
+
+.form-container > * {
+    flex: 1; /* Distribuer l'espace également entre les éléments */
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+    width: 100% ; /* Définir la largeur à 100% */
+    height: 100%;
+    box-sizing: border-box; /* Inclure la largeur du padding et de la bordure dans la largeur totale */
+}
+
+.success-message {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #00f767;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+
+/*CSS pour le footer --> */
+
+/* CSS pour la section Équipements 
+.equipments-section {
+   
+}
+
+/* CSS pour la section Témoignages 
+.testimonials-section {
+    /* Vos styles spécifiques ici 
+}
+
+/* CSS pour la section Newsletter 
+.newsletter-section {
+    /* Vos styles spécifiques ici 
+}
+
+/* CSS pour le pied de page 
+.footer-section {
+    /* Vos styles spécifiques ici 
+}
+*/
+

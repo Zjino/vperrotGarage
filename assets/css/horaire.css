@@ -1,0 +1,24 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.opening-hours {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.opening-hours h2 {
+    color: #ffffff;
+}
+
+.opening-hours ul {
+    list-style: none;
+    padding: 0;
+}
+
+.opening-hours li {
+    margin: 10px 0;
+}

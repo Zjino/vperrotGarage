@@ -1,0 +1,60 @@
+/* CSS pour la section de filtres */
+.filters-section {
+    background-color: #ffffff !important;
+    padding: 20px;
+    margin-top: 5%; /* Descendu de 60% */
+    margin-bottom: -5%;
+    margin-right: 15%; 
+}
+
+.filters-section .container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.filters-section .filtre-range-slider label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: -2%;
+}
+
+.filters-section .filtre-range-slider input[type="range"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: -1%;
+    margin-top: 1%;
+    
+}
+
+.filters-section .filtre-range-slider span {
+    display: block;
+    margin-top: -5%;
+   
+}
+
+/* Pour les navigateurs WebKit (Chrome, Safari, etc.) */
+.filters-section .filtre-range-slider input[type="range"]::-webkit-slider-thumb {
+    background-color: #000000; /* Par exemple, couleur rouge */
+}
+
+
+/* Styles spécifiques aux appareils mobiles */
+@media (max-width: 800px) {
+    .filters-section .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .filters-section .filtre-range-slider input[type="range"] {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/* Ajustements pour les grands écrans */
+@media (min-width: 800px) {
+    .filters-section .filtre-range-slider input[type="range"] {
+        width: 80%;
+        height: 40px;
+    }
+}
